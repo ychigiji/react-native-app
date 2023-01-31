@@ -65,12 +65,9 @@ function App(): JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
+          style={{backgroundColor: isDarkMode ? Colors.black : Colors.white,}}>
           <Section title="Welcome to my App">
-            Over the next few weeks we will embark on a journey of self
-            discovery
+            My very first App
           </Section>
         </View>
       </ScrollView>
@@ -91,9 +88,6 @@ const styles = StyleSheet.create({
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
   },
 });
 
